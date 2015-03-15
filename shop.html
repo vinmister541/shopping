@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
 	<link rel="stylesheet" href="css/shop.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="jss/shop.js"></script>
 </head>
 <body>
 	<section class="top-section">
@@ -25,15 +27,29 @@
 			<h2> STEP 2: Add Items to List </h2>
 			<input id="item">
 			<button type="submit" id="add">+</button>
+			<div id="error" style="display: block;">You forgot to ENTER!!!!! </div>
 		</div>
-		<div> <img class="brown" src="images/grocery.png" alt="Logo Image" width="400px"></div>
-	</section>
+
+		<div class="insert">	
+
+			<ul id="list" class="ui-sortable"> 
+				 
+
+				<li class="todo"><button class="grab">CHECK</button>Maggie</li>
+				<li class="todo"><button class="grab">Milk</button>Maggie</li>
+				<li class="todo"><button class="grab">CHECK</button>Lettuce</li>
+					<div class="box"></div>
+				
+			</ul>
+			<img class="brown" src="images/grocery.png" alt="Logo Image" width="400px">
+		</div>
+	
 
 <footer class="checkout">
 
     <div class="maggie">
         <h3> STEP 3: Checkout </h3>
-      <img class="scan" src="images/check.gif" alt="Logo Image" width="800px">
+      <img class="scan" src="images/cart.gif" alt="Logo Image" width="800px">
     </div>
 </footer>
 	
