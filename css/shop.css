@@ -39,7 +39,7 @@ body {
 
 
 .third-section {
-	height: 20rem;
+	height: 10rem;
 
 }
 
@@ -56,7 +56,7 @@ h2 {
 input {
 	margin-top: 10px;
 	height: 30px;
-	width: 520px;
+	width: 420px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 15px;
 }
@@ -76,17 +76,20 @@ div#error {
 	border: 2px solid;
 	border-radius: 8px;
 	padding: 0 0 0px 0;
+	cursor: pointer;
 }
 
-ul#list.ui-sortable {
-	text-align: left;
-	margin-left: 25rem;
-}
+
 
 .insert ul {
-	margin-top: 12rem;
 	list-style-type: none;
+	position: absolute;
+	padding: 0;
+	left: 35%;
+	top: 150%;
 }
+
+
 .bag h2 {
 	text-align: center;
 	margin: 0 auto;
@@ -101,6 +104,8 @@ ul#list.ui-sortable {
 	padding: 0 0 0px 0;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: #ffffff;
+	cursor: pointer;
+	margin-right: 20px;
 }
 
 .insert ul {
@@ -113,8 +118,9 @@ ul#list.ui-sortable {
 }
 
 .new {
-	height: 30rem;
+	height: 45rem;
 	text-align: center;
+	padding: 1rem 8rem;
 }
 
 

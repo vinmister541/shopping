@@ -9,7 +9,7 @@ $(document).ready(function () {
 				$('input#item').val("");
 		} else { 
 
-		$('ul').append('<li class="todo"><button class="grab">CHECK!</button>' +  $('input#item').val() + '</li>');
+		$('ul').append('<li class="todo"><button class="grab">CHECK</button>' +  $('input#item').val() + '</li>');
 		$('input#item').val("");
 		$('#error').hide();
 
